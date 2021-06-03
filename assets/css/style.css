@@ -1209,12 +1209,18 @@ section {
   overflow: hidden;
 }
 
+.gallery .gallery-item a{
+  display: inline-block;
+  width: 100%;
+}
+
 .gallery .gallery-item img {
   width: 100%;
   transition: all ease-in-out 0.4s;
 }
 
 .gallery .gallery-item:hover img {
+  filter: saturate(1.5);
   transform: scale(1.1);
 }
 
